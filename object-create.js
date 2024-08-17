@@ -7,7 +7,7 @@ const person = new Object();
 // const human = Object.create(null);
 const human = Object.create(student);
 // console.log(human.job);
-
+// 4. class  
 class Peaple {
   constructor(name, age) {
     this.name = name;
@@ -19,4 +19,11 @@ console.log(peop);
 
 
 // function
-function Manus
+function Manus(name) {
+  this.name = name;
+}
+const man = new Manus('kader');
+console.log(man);
+
+
+
